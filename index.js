@@ -28,4 +28,4 @@ if (message.content.startsWith(prefix + 'watching')) {
 });
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.USER_TOKEN);
