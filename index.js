@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '+'
 client.on('message', message => {
-  if (!message.content.startsWith(PREFIX)) return;
+  if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
   if (message.author.id !== "351472610732670976") return;
